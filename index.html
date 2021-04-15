@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>GST Calculator</h1>
+    <form>
+
+        <div>
+            <img id="image" src="/images/Screenshot (65).png">
+        </div>
+        <div class="form">
+<div class="price">
+<label for="price">Enter Amount </label><br>
+<input id="price" type="number" value="1" />
+    <input type="range" min="1" max="100" value="50" class="slider" id="price">
+   Value: <p id="demo"></p>
+  
+</div>
+<div class="gst" >
+<label for="gst">Enter Percentage: </label><br>
+<input id="gst" type="number" value="0.6" />
+    <input type="range" min="1" max="100" value="50" class="slider" id="gst">value:<p id="demo1"></p>
+  
+</div>
+<div class="button">
+<button type="button" onclick="inpChange()">Calculate</button><br>
+</div>
+<br>
+<div class="priceGst">
+<label for="priceGst">Total GST applied in GST Inclusive </label><br>
+<input id="priceGst" type="number" readonly />
+</div>
+<div class="expriceGst">
+    <label for="priceGst">Total GST applied in GST Exclusive </label><br>
+    <input id="priceGst" type="number" readonly />
+    </div>
+
+</div>
+</form>
+</body>
+<script src="index.js"></script>
+</html>

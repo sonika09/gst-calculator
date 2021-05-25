@@ -1,8 +1,14 @@
 body{
-    background-color: lightgrey;
+    background-image: url("https://thumbs.dreamstime.com/b/planks-dark-old-wood-texture-background-170515350.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
 }
 h1{
     text-align: center;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 form{
@@ -10,6 +16,10 @@ form{
     width:650px;
     height:450px;
     margin-left: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+    text-shadow: 2px 2px 4px blueviolet;
+
 
 }
 input[type=number]{
